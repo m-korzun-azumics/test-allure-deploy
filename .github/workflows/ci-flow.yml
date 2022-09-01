@@ -32,12 +32,12 @@ jobs:
         run: "docker-compose -f docker-compose.yml -f docker-compose.ci.yml up --abort-on-container-exit --exit-code-from e2e"
 
       - name: Get allure history
-        uses: peaceiris/actions-gh-pages@v2
+        uses: JamesIves/github-pages-deploy-action@v4
         if: always()
         continue-on-error: true
         with:
-          publish_branch: gh-pages
-          publish_dir: allure-history
+          branch: gh-pages
+          folder: allure-history
 
       - name: Setup allure report
         uses: simple-elf/allure-report-action@master

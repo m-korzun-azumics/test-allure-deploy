@@ -1,0 +1,17 @@
+2022-08-21T23:10:27.526478033Z 2022/08/22 02:10:27 [INIT] [Listening on :7070]
+2022-08-21T23:10:27.622513645Z 20
+2022-08-21T23:10:27.655257019Z Waiting X server...
+2022-08-21T23:10:27.949048584Z Logging to: /dev/null
+2022-08-21T23:10:27.952081617Z Waiting X server...
+2022-08-21T23:10:28.068201932Z Waiting X server...
+2022-08-21T23:10:28.184539805Z Waiting X server...
+2022-08-21T23:10:28.315253557Z 
+2022-08-21T23:10:28.315297069Z  --- x11vnc loop: 1 ---
+2022-08-21T23:10:28.315302726Z 
+2022-08-21T23:10:28.319736722Z Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 4444
+2022-08-21T23:10:28.319773389Z All remote connections are allowed. Use an allowlist instead!
+2022-08-21T23:10:28.319779395Z Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+2022-08-21T23:10:28.336189216Z ChromeDriver was started successfully.
+2022-08-21T23:10:28.816220261Z  --- x11vnc loop: waiting for: 106
+2022-08-21T23:10:28.816279348Z 
+2022-08-21T23:10:28.925663392Z PORT=5900

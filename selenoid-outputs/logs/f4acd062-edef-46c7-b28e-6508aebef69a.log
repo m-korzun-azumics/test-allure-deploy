@@ -1,0 +1,44 @@
+2022-08-23T14:49:20.615192103Z 20
+2022-08-23T14:49:20.622509000Z Waiting X server...
+2022-08-23T14:49:20.696428489Z Logging to: /dev/null
+2022-08-23T14:49:20.732087991Z Waiting X server...
+2022-08-23T14:49:20.853579045Z 2022/08/23 17:49:20 [-] [INIT] [Loading configuration files...]
+2022-08-23T14:49:20.853608169Z 2022/08/23 17:49:20 [-] [INIT] [Loaded configuration from /tmp/browsers.json]
+2022-08-23T14:49:20.853618575Z 2022/08/23 17:49:20 [-] [INIT] [Timezone: Europe/Moscow]
+2022-08-23T14:49:20.853623953Z 2022/08/23 17:49:20 [-] [INIT] [Listening on :4444]
+2022-08-23T14:49:20.869477882Z 
+2022-08-23T14:49:20.869519717Z  --- x11vnc loop: 1 ---
+2022-08-23T14:49:20.869525514Z 
+2022-08-23T14:49:21.373314175Z  --- x11vnc loop: waiting for: 74
+2022-08-23T14:49:21.373357617Z 
+2022-08-23T14:49:21.469932850Z PORT=5900
+2022-08-23T14:49:21.715855576Z 1661266161712	geckodriver	INFO	Listening on 127.0.0.1:36009
+2022-08-23T14:49:21.715926116Z 2022/08/23 17:49:21 [-] [NEW_REQUEST] [unknown] [172.22.0.2]
+2022-08-23T14:49:21.715933938Z 2022/08/23 17:49:21 [-] [NEW_REQUEST_ACCEPTED] [unknown] [172.22.0.2]
+2022-08-23T14:49:21.715939176Z 2022/08/23 17:49:21 [0] [LOCATING_SERVICE] [firefox] []
+2022-08-23T14:49:21.715944764Z 2022/08/23 17:49:21 [-] [DEFAULT_VERSION] [Using default version: 103.0]
+2022-08-23T14:49:21.715949932Z 2022/08/23 17:49:21 [0] [USING_DRIVER] [firefox] [103.0]
+2022-08-23T14:49:21.715955729Z 2022/08/23 17:49:21 [0] [ALLOCATING_PORT]
+2022-08-23T14:49:21.715960967Z 2022/08/23 17:49:21 [0] [ALLOCATED_PORT] [36009]
+2022-08-23T14:49:21.715965856Z 2022/08/23 17:49:21 [0] [STARTING_PROCESS] [[/usr/bin/geckodriver --port=36009]]
+2022-08-23T14:49:21.764491528Z 2022/08/23 17:49:21 [0] [PROCESS_STARTED] [75] [0.05s]
+2022-08-23T14:49:21.764524354Z 2022/08/23 17:49:21 [0] [PROXY_TO] [http://127.0.0.1:36009]
+2022-08-23T14:49:21.764594614Z 2022/08/23 17:49:21 [0] [SESSION_ATTEMPTED] [http://127.0.0.1:36009] [1]
+2022-08-23T14:49:21.767042566Z 1661266161766	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--window-size=1280x1024x24" "-no-remote" "-profile" "/tmp/rust_mozprofileLfrfw9"
+2022-08-23T14:49:22.549972216Z [GFX1-]: glxtest: libpci missing
+2022-08-23T14:49:22.550001270Z [GFX1-]: glxtest: libEGL missing
+2022-08-23T14:49:22.586335722Z 1661266162586	Marionette	INFO	Marionette enabled
+2022-08-23T14:49:22.597360516Z 1661266162596	Marionette	INFO	Listening on port 35583
+2022-08-23T14:49:22.674486650Z Read port: 35583
+2022-08-23T14:49:22.849768536Z 1661266162849	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2022-08-23T14:49:23.851109227Z console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLfrfw9/search.json.mozlz4", (void 0)))
+2022-08-23T14:49:25.646482903Z Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+2022-08-23T14:49:25.646542967Z Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+2022-08-23T14:49:26.294476714Z 2022/08/23 17:49:26 [0] [SESSION_CREATED] [f4acd062-edef-46c7-b28e-6508aebef69a] [1] [4.58s]
+2022-08-23T14:49:30.288642257Z 2022/08/23 17:49:30 [3] [SESSION_DELETED] [f4acd062-edef-46c7-b28e-6508aebef69a]
+2022-08-23T14:49:30.294140406Z 1661266170294	Marionette	INFO	Stopped listening on port 35583
+2022-08-23T14:49:30.550928433Z Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+2022-08-23T14:49:30.550979976Z Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+2022-08-23T14:49:30.551329603Z console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+2022-08-23T14:49:31.621908808Z 2022/08/23 17:49:31 [0] [TERMINATING_PROCESS] [75]
+2022-08-23T14:49:31.622469707Z 2022/08/23 17:49:31 [0] [TERMINATED_PROCESS] [75] [0.00s]

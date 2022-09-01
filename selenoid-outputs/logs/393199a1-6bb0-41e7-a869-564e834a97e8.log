@@ -1,0 +1,49 @@
+2022-08-23T14:47:14.154259484Z 20
+2022-08-23T14:47:14.193189959Z Waiting X server...
+2022-08-23T14:47:14.317558640Z Waiting X server...
+2022-08-23T14:47:14.329303971Z Logging to: /dev/null
+2022-08-23T14:47:14.425357541Z Waiting X server...
+2022-08-23T14:47:14.540488343Z Waiting X server...
+2022-08-23T14:47:14.659447024Z 2022/08/23 17:47:14 [-] [INIT] [Loading configuration files...]
+2022-08-23T14:47:14.659481247Z 2022/08/23 17:47:14 [-] [INIT] [Loaded configuration from /tmp/browsers.json]
+2022-08-23T14:47:14.661375490Z 2022/08/23 17:47:14 [-] [INIT] [Timezone: Europe/Moscow]
+2022-08-23T14:47:14.661416068Z 2022/08/23 17:47:14 [-] [INIT] [Listening on :4444]
+2022-08-23T14:47:14.679067764Z 
+2022-08-23T14:47:14.679115955Z  --- x11vnc loop: 1 ---
+2022-08-23T14:47:14.679122101Z 
+2022-08-23T14:47:15.179919681Z  --- x11vnc loop: waiting for: 75
+2022-08-23T14:47:15.179968430Z 
+2022-08-23T14:47:15.241441889Z PORT=5900
+2022-08-23T14:47:15.245320123Z 2022/08/23 17:47:15 [-] [NEW_REQUEST] [unknown] [172.19.0.2]
+2022-08-23T14:47:15.245330460Z 2022/08/23 17:47:15 [-] [NEW_REQUEST_ACCEPTED] [unknown] [172.19.0.2]
+2022-08-23T14:47:15.245335698Z 2022/08/23 17:47:15 [0] [LOCATING_SERVICE] [firefox] []
+2022-08-23T14:47:15.245341006Z 2022/08/23 17:47:15 [-] [DEFAULT_VERSION] [Using default version: 103.0]
+2022-08-23T14:47:15.245345755Z 2022/08/23 17:47:15 [0] [USING_DRIVER] [firefox] [103.0]
+2022-08-23T14:47:15.245350574Z 2022/08/23 17:47:15 [0] [ALLOCATING_PORT]
+2022-08-23T14:47:15.245355393Z 2022/08/23 17:47:15 [0] [ALLOCATED_PORT] [40873]
+2022-08-23T14:47:15.245360072Z 2022/08/23 17:47:15 [0] [STARTING_PROCESS] [[/usr/bin/geckodriver --port=40873]]
+2022-08-23T14:47:15.251500266Z 1661266035251	geckodriver	INFO	Listening on 127.0.0.1:40873
+2022-08-23T14:47:15.300811509Z 2022/08/23 17:47:15 [0] [PROCESS_STARTED] [76] [0.06s]
+2022-08-23T14:47:15.300855230Z 2022/08/23 17:47:15 [0] [PROXY_TO] [http://127.0.0.1:40873]
+2022-08-23T14:47:15.300906773Z 2022/08/23 17:47:15 [0] [SESSION_ATTEMPTED] [http://127.0.0.1:40873] [1]
+2022-08-23T14:47:15.303182980Z 1661266035303	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--window-size=1280x1024x24" "-no-remote" "-profile" "/tmp/rust_mozprofileYmHasY"
+2022-08-23T14:47:16.210871512Z [GFX1-]: glxtest: libpci missing
+2022-08-23T14:47:16.210908248Z [GFX1-]: glxtest: libEGL missing
+2022-08-23T14:47:16.252295333Z 1661266036252	Marionette	INFO	Marionette enabled
+2022-08-23T14:47:16.279536212Z 1661266036279	Marionette	INFO	Listening on port 37255
+2022-08-23T14:47:16.310890132Z Read port: 37255
+2022-08-23T14:47:16.433881819Z 1661266036433	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2022-08-23T14:47:17.395712483Z console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileYmHasY/search.json.mozlz4", (void 0)))
+2022-08-23T14:47:19.379684520Z Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+2022-08-23T14:47:19.379726984Z Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+2022-08-23T14:47:19.838992798Z 2022/08/23 17:47:19 [0] [SESSION_CREATED] [393199a1-6bb0-41e7-a869-564e834a97e8] [1] [4.59s]
+2022-08-23T14:47:23.558575281Z console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://the-internet.herokuapp.com"
+2022-08-23T14:47:23.592596036Z console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://the-internet.herokuapp.com"
+2022-08-23T14:47:23.610594777Z JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+2022-08-23T14:47:24.560255779Z 2022/08/23 17:47:24 [14] [SESSION_DELETED] [393199a1-6bb0-41e7-a869-564e834a97e8]
+2022-08-23T14:47:24.561784402Z 1661266044561	Marionette	INFO	Stopped listening on port 37255
+2022-08-23T14:47:24.765855716Z Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+2022-08-23T14:47:24.765897272Z Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+2022-08-23T14:47:24.766033323Z console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+2022-08-23T14:47:26.024723699Z 2022/08/23 17:47:26 [0] [TERMINATING_PROCESS] [76]
+2022-08-23T14:47:26.027879632Z 2022/08/23 17:47:26 [0] [TERMINATED_PROCESS] [76] [0.00s]

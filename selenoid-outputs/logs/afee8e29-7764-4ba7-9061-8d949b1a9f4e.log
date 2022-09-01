@@ -1,0 +1,45 @@
+2022-08-23T14:49:25.363761265Z 20
+2022-08-23T14:49:25.382531366Z Waiting X server...
+2022-08-23T14:49:25.583552305Z Waiting X server...
+2022-08-23T14:49:25.593370862Z Logging to: /dev/null
+2022-08-23T14:49:25.689801668Z Waiting X server...
+2022-08-23T14:49:25.831700058Z 2022/08/23 17:49:25 [-] [INIT] [Loading configuration files...]
+2022-08-23T14:49:25.831742103Z 2022/08/23 17:49:25 [-] [INIT] [Loaded configuration from /tmp/browsers.json]
+2022-08-23T14:49:25.831780167Z 2022/08/23 17:49:25 [-] [INIT] [Timezone: Europe/Moscow]
+2022-08-23T14:49:25.831874732Z 2022/08/23 17:49:25 [-] [INIT] [Listening on :4444]
+2022-08-23T14:49:25.852692872Z 
+2022-08-23T14:49:25.852722903Z  --- x11vnc loop: 1 ---
+2022-08-23T14:49:25.852728211Z 
+2022-08-23T14:49:26.061194557Z 2022/08/23 17:49:26 [-] [NEW_REQUEST] [unknown] [172.22.0.2]
+2022-08-23T14:49:26.061246520Z 2022/08/23 17:49:26 [-] [NEW_REQUEST_ACCEPTED] [unknown] [172.22.0.2]
+2022-08-23T14:49:26.061253224Z 2022/08/23 17:49:26 [0] [LOCATING_SERVICE] [firefox] []
+2022-08-23T14:49:26.061257904Z 2022/08/23 17:49:26 [-] [DEFAULT_VERSION] [Using default version: 103.0]
+2022-08-23T14:49:26.061263561Z 2022/08/23 17:49:26 [0] [USING_DRIVER] [firefox] [103.0]
+2022-08-23T14:49:26.061267891Z 2022/08/23 17:49:26 [0] [ALLOCATING_PORT]
+2022-08-23T14:49:26.061273199Z 2022/08/23 17:49:26 [0] [ALLOCATED_PORT] [38147]
+2022-08-23T14:49:26.061278018Z 2022/08/23 17:49:26 [0] [STARTING_PROCESS] [[/usr/bin/geckodriver --port=38147]]
+2022-08-23T14:49:26.062556331Z 1661266166062	geckodriver	INFO	Listening on 127.0.0.1:38147
+2022-08-23T14:49:26.113716366Z 2022/08/23 17:49:26 [0] [PROCESS_STARTED] [72] [0.05s]
+2022-08-23T14:49:26.115128076Z 2022/08/23 17:49:26 [0] [PROXY_TO] [http://127.0.0.1:38147]
+2022-08-23T14:49:26.115375665Z 2022/08/23 17:49:26 [0] [SESSION_ATTEMPTED] [http://127.0.0.1:38147] [1]
+2022-08-23T14:49:26.119683642Z 1661266166119	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--window-size=1280x1024x24" "-no-remote" "-profile" "/tmp/rust_mozprofileigm0FR"
+2022-08-23T14:49:26.353785601Z  --- x11vnc loop: waiting for: 100
+2022-08-23T14:49:26.353816611Z 
+2022-08-23T14:49:26.492343324Z PORT=5900
+2022-08-23T14:49:27.646743296Z [GFX1-]: glxtest: libpci missing
+2022-08-23T14:49:27.646796306Z [GFX1-]: glxtest: libEGL missing
+2022-08-23T14:49:27.756240790Z 1661266167756	Marionette	INFO	Marionette enabled
+2022-08-23T14:49:27.778212575Z 1661266167778	Marionette	INFO	Listening on port 33731
+2022-08-23T14:49:27.864925955Z Read port: 33731
+2022-08-23T14:49:28.130030028Z 1661266168129	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2022-08-23T14:49:29.449080685Z console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileigm0FR/search.json.mozlz4", (void 0)))
+2022-08-23T14:49:30.712193660Z Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+2022-08-23T14:49:30.712439852Z Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+2022-08-23T14:49:31.538147004Z 2022/08/23 17:49:31 [0] [SESSION_CREATED] [afee8e29-7764-4ba7-9061-8d949b1a9f4e] [1] [5.48s]
+2022-08-23T14:49:33.377395890Z 2022/08/23 17:49:33 [7] [SESSION_DELETED] [afee8e29-7764-4ba7-9061-8d949b1a9f4e]
+2022-08-23T14:49:33.378752915Z 1661266173378	Marionette	INFO	Stopped listening on port 33731
+2022-08-23T14:49:33.447572852Z Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+2022-08-23T14:49:33.447610986Z Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+2022-08-23T14:49:33.447773158Z console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+2022-08-23T14:49:33.912140986Z 2022/08/23 17:49:33 [0] [TERMINATING_PROCESS] [72]
+2022-08-23T14:49:33.913368105Z 2022/08/23 17:49:33 [0] [TERMINATED_PROCESS] [72] [0.00s]

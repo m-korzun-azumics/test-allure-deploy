@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1662115114651' stop='1662115117028'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1662117657938' stop='1662117659778'>
     <name>Base page test</name>
     <title>Base page test</title>
     <test-cases>
-        <test-case start='1662115114651' status='passed' stop='1662115115075'>
+        <test-case start='1662117657939' status='passed' stop='1662117658311'>
             <name>GET test request /api/users/2</name>
             <title>GET test request /api/users/2</title>
             <labels>
@@ -17,7 +17,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1662115115075' status='passed' stop='1662115115309'>
+        <test-case start='1662117658312' status='passed' stop='1662117658539'>
             <name>POST test request</name>
             <title>POST test request</title>
             <labels>
@@ -31,7 +31,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1662115115310' status='passed' stop='1662115117027'>
+        <test-case start='1662117658540' status='passed' stop='1662117659778'>
             <name>MOCK test request</name>
             <title>MOCK test request</title>
             <labels>

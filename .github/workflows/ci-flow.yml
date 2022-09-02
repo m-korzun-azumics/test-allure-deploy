@@ -69,17 +69,6 @@ jobs:
           branch: gh-pages
           folder: allure-results
       
-      
-      - name: Allure status
-        if: always()
-        uses: Sibz/github-status-action@v1
-        with: 
-          authToken: ${{secrets.GITHUB_TOKEN}}
-          context: 'Test report'
-          owner: m-korzun-azumics
-          state: 'success'
-          sha: ${{ github.event.pull_request.head.sha }}
-          target_url: simple-elf.github.io/github-allure-history/${{ github.run_number }}
 
         # Need to enable IMAP for this step to success
         # https://support.google.com/mail/answer/7126229?hl=en

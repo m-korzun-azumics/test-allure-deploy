@@ -1,19 +1,19 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1662118873575' stop='1662118881028'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1662379588016' stop='1662379595064'>
     <name>Base page test</name>
     <title>Base page test</title>
     <test-cases>
-        <test-case start='1662118873575' status='passed' stop='1662118881027'>
+        <test-case start='1662379588020' status='passed' stop='1662379595063'>
             <name>Signing in</name>
             <title>Signing in</title>
             <labels>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='1-1'/>
+                <label name='thread' value='0-1'/>
                 <label name='severity' value='Critical'/>
             </labels>
             <parameters>
-                <parameter kind='argument' name='browser' value='firefox-103.0'/>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.45'/>
             </parameters>
             <steps/>
             <attachments/>

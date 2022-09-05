@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1662381142750' stop='1662381145156'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1662381569966' stop='1662381571758'>
     <name>Base page test</name>
     <title>Base page test</title>
     <test-cases>
-        <test-case start='1662381142751' status='failed' stop='1662381143154'>
+        <test-case start='1662381569966' status='passed' stop='1662381570259'>
             <name>GET test request /api/users/2</name>
             <title>GET test request /api/users/2</title>
             <labels>
@@ -16,20 +16,8 @@
             </parameters>
             <steps/>
             <attachments/>
-            <failure>
-                <message>expect(received).toContain(expected) // indexOf
-                
-                Expected substring: "123456"
-                Received string:    "Janet"</message>
-                <stack-trace>Error: expect(received).toContain(expected) // indexOf
-                
-                Expected substring: "123456"
-                Received string:    "Janet"
-                    at Context.&lt;anonymous> (/usr/lib/wdio/test/specs/apitest.ts:20:44)
-                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
-            </failure>
         </test-case>
-        <test-case start='1662381143155' status='passed' stop='1662381143539'>
+        <test-case start='1662381570260' status='passed' stop='1662381570602'>
             <name>POST test request</name>
             <title>POST test request</title>
             <labels>
@@ -43,7 +31,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1662381143540' status='passed' stop='1662381145155'>
+        <test-case start='1662381570602' status='passed' stop='1662381571757'>
             <name>MOCK test request</name>
             <title>MOCK test request</title>
             <labels>

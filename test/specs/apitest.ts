@@ -17,7 +17,7 @@ describe("Base page test", async () => {
         .expect(200)
 
         const body = response.body
-        await expect(body.data.first_name).toContain("Janet") //Janet
+        await expect(body.data.first_name).toContain("123123") //Janet
       });
 
     it("POST test request", async () => {
